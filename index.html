@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>কৃষক বাড়ি | কৃষি তথ্য ও প্রশিক্ষণ</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Arial,"Noto Sans Bengali",sans-serif;line-height:1.7;background:#f5f8f4;color:#17351d}
+    header{background:#176b35;color:white;padding:16px 7%;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+    .logo{font-size:30px;font-weight:bold}
+    nav a{color:white;text-decoration:none;margin:0 8px;font-weight:bold}
+    .hero{padding:75px 7%;background:linear-gradient(120deg,#e7f5e9,#f7fff7);text-align:center}
+    .hero h1{font-size:46px;color:#176b35;margin-bottom:12px}
+    .hero p{font-size:20px;max-width:750px;margin:auto}
+    .btn{display:inline-block;margin-top:25px;background:#176b35;color:white;padding:12px 25px;border-radius:8px;text-decoration:none;font-weight:bold}
+    section{padding:55px 7%}
+    .title{text-align:center;font-size:30px;color:#176b35;margin-bottom:30px}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+    .card{background:white;padding:25px;border-radius:14px;box-shadow:0 4px 14px #00000012}
+    .card h3{color:#176b35;margin-bottom:8px;font-size:21px}
+    .icon{font-size:38px;margin-bottom:8px}
+    .about{background:#eaf6ec}
+    footer{background:#123d20;color:white;text-align:center;padding:25px}
+    @media(max-width:700px){.hero h1{font-size:34px}nav{width:100%}nav a{display:inline-block;margin:4px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="logo">🌾 কৃষক বাড়ি</div>
+  <nav>
+    <a href="#home">হোম</a>
+    <a href="#crops">ফসল</a>
+    <a href="#pest">রোগ-পোকা</a>
+    <a href="#training">প্রশিক্ষণ</a>
+    <a href="#contact">যোগাযোগ</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>কৃষক বাড়িতে আপনাকে স্বাগতম</h1>
+  <p>সহজ ভাষায় আধুনিক কৃষি প্রযুক্তি, ফসল উৎপাদন, রোগ-পোকামাকড় ব্যবস্থাপনা ও কৃষক প্রশিক্ষণের তথ্য।</p>
+  <a class="btn" href="#crops">কৃষি তথ্য দেখুন</a>
+</section>
+
+<section id="crops">
+  <h2 class="title">🌱 কৃষি তথ্য</h2>
+  <div class="cards">
+    <div class="card"><div class="icon">🌾</div><h3>ধান চাষ</h3><p>বীজতলা, রোপণ, সার ব্যবস্থাপনা ও ধান কাটার প্রয়োজনীয় তথ্য।</p></div>
+    <div class="card"><div class="icon">🥬</div><h3>সবজি চাষ</h3><p>বাঁধাকপি, টমেটো, পেঁয়াজসহ বিভিন্ন সবজি উৎপাদনের আধুনিক পদ্ধতি।</p></div>
+    <div class="card"><div class="icon">🌿</div><h3>ফসল ব্যবস্থাপনা</h3><p>সেচ, সার, আগাছা ও মাটির স্বাস্থ্য ব্যবস্থাপনা সম্পর্কে তথ্য।</p></div>
+  </div>
+</section>
+
+<section id="pest" class="about">
+  <h2 class="title">🐛 রোগ ও পোকামাকড়</h2>
+  <div class="cards">
+    <div class="card"><h3>রোগ শনাক্তকরণ</h3><p>ফসলের রোগের লক্ষণ দেখে প্রাথমিকভাবে শনাক্ত করার সহায়ক তথ্য।</p></div>
+    <div class="card"><h3>পোকামাকড় ব্যবস্থাপনা</h3><p>সমন্বিত বালাই ব্যবস্থাপনার মাধ্যমে নিরাপদ ও কার্যকর ব্যবস্থাপনার ধারণা।</p></div>
+    <div class="card"><h3>আলোর ফাঁদ</h3><p>ক্ষতিকর পোকামাকড় পর্যবেক্ষণ ও ব্যবস্থাপনায় আলোর ফাঁদের ব্যবহার।</p></div>
+  </div>
+</section>
+
+<section id="training">
+  <h2 class="title">👨‍🌾 কৃষক প্রশিক্ষণ</h2>
+  <div class="card" style="max-width:850px;margin:auto;text-align:center">
+    <h3>আধুনিক কৃষি প্রযুক্তি বিষয়ক প্রশিক্ষণ</h3>
+    <p>কৃষকদের বাস্তবভিত্তিক চাষাবাদ, ফসল ব্যবস্থাপনা ও আধুনিক কৃষি প্রযুক্তি সম্পর্কে সহজবোধ্য প্রশিক্ষণ ও শিক্ষামূলক কনটেন্ট।</p>
+  </div>
+</section>
+
+<section id="contact" class="about">
+  <h2 class="title">📞 যোগাযোগ</h2>
+  <div class="card" style="max-width:700px;margin:auto;text-align:center">
+    <h3>কৃষক বাড়ি</h3>
+    <p>কৃষি তথ্য ও প্রশিক্ষণের জন্য আমাদের সঙ্গে যোগাযোগ করুন।</p>
+    <p><strong>পরিচালনায়:</strong> মোঃ সামসুদ্দোহা (কৃষিবিদ)</p>
+  </div>
+</section>
+
+<footer>
+  <p>© ২০২৬ কৃষক বাড়ি — আধুনিক কৃষির তথ্যভান্ডার</p>
+</footer>
+</body>
+</html>
